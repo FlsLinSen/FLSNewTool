@@ -1,0 +1,6 @@
+framework module FLSNewTool {
+  umbrella header "FLSNewTool-umbrella.h"
+
+  export *
+  module * { export * }
+}

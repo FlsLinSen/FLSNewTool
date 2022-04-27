@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - FLSNewTool (0.0.1)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - FLSNewTool (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  FLSNewTool:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  FLSNewTool: ad4264b43e8648a00d1d74667bc6389043c8ad11
+
+PODFILE CHECKSUM: e85cb1acc4864e213864ed778d677c0d443a6b14
+
+COCOAPODS: 1.10.1
