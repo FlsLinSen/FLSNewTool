@@ -8,5 +8,7 @@
 #import "NewFlsTool.h"
 
 @implementation NewFlsTool
-
++ (int)back{
+    return 10;
+}
 @end
