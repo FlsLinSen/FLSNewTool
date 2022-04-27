@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'FLSNewTool_Example' do
+  pod 'FLSNewTool', :path => '../'
+
+  target 'FLSNewTool_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
